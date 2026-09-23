@@ -1,0 +1,20 @@
+# Сборка
+.gradle/
+.kotlin/
+build/
+out/
+
+# Среда разработки
+.idea/
+*.iml
+
+# Логи
+*.log
+
+# СЕКРЕТЫ — не выкладывать в репозиторий
+firebase-service-account.json
+*firebase-adminsdk*.json
+.env
+
+# macOS
+.DS_Store
